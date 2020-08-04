@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF80749B24D9FFA000CCA528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80749A24D9FFA000CCA528 /* AppDelegate.swift */; };
+		BF80749D24D9FFA000CCA528 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80749C24D9FFA000CCA528 /* SceneDelegate.swift */; };
+		BF80749F24D9FFA000CCA528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80749E24D9FFA000CCA528 /* ViewController.swift */; };
+		BF8074A224D9FFA000CCA528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8074A024D9FFA000CCA528 /* Main.storyboard */; };
+		BF8074A424D9FFA100CCA528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8074A324D9FFA100CCA528 /* Assets.xcassets */; };
+		BF8074A724D9FFA100CCA528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8074A524D9FFA100CCA528 /* LaunchScreen.storyboard */; };
+		BF8074B424DA006700CCA528 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8074B324DA006700CCA528 /* Card.swift */; };
+		BF8074B624DA00BD00CCA528 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8074B524DA00BD00CCA528 /* CardController.swift */; };
+		BF8074B924DA03FF00CCA528 /* Card Error .swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8074B824DA03FF00CCA528 /* Card Error .swift */; };
+		BF8074BB24DA0C7F00CCA528 /* ViewControllerextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8074BA24DA0C7F00CCA528 /* ViewControllerextension.swift */; };
+		BF8074BE24DA0D2D00CCA528 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8074BD24DA0D2D00CCA528 /* CardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF80749724D9FFA000CCA528 /* DeckOfOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF80749A24D9FFA000CCA528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF80749C24D9FFA000CCA528 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF80749E24D9FFA000CCA528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF8074A124D9FFA000CCA528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8074A324D9FFA100CCA528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8074A624D9FFA100CCA528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8074A824D9FFA100CCA528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8074B324DA006700CCA528 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BF8074B524DA00BD00CCA528 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		BF8074B824DA03FF00CCA528 /* Card Error .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card Error .swift"; sourceTree = "<group>"; };
+		BF8074BA24DA0C7F00CCA528 /* ViewControllerextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerextension.swift; sourceTree = "<group>"; };
+		BF8074BD24DA0D2D00CCA528 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF80749424D9FFA000CCA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF80748E24D9FFA000CCA528 = {
+			isa = PBXGroup;
+			children = (
+				BF80749924D9FFA000CCA528 /* DeckOfOne */,
+				BF80749824D9FFA000CCA528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF80749824D9FFA000CCA528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF80749724D9FFA000CCA528 /* DeckOfOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF80749924D9FFA000CCA528 /* DeckOfOne */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074B724DA03EB00CCA528 /* extensiomn and helpers */,
+				BF8074B124DA003C00CCA528 /* Model */,
+				BF8074B024DA003500CCA528 /* Controller */,
+				BF8074AF24DA002E00CCA528 /* views */,
+				BF8074AE24D9FFAD00CCA528 /* resources */,
+				BF8074A024D9FFA000CCA528 /* Main.storyboard */,
+				BF8074A524D9FFA100CCA528 /* LaunchScreen.storyboard */,
+			);
+			path = DeckOfOne;
+			sourceTree = "<group>";
+		};
+		BF8074AE24D9FFAD00CCA528 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF80749A24D9FFA000CCA528 /* AppDelegate.swift */,
+				BF80749C24D9FFA000CCA528 /* SceneDelegate.swift */,
+				BF80749E24D9FFA000CCA528 /* ViewController.swift */,
+				BF8074A324D9FFA100CCA528 /* Assets.xcassets */,
+				BF8074A824D9FFA100CCA528 /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		BF8074AF24DA002E00CCA528 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BF8074B024DA003500CCA528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074BC24DA0CC900CCA528 /* View Controller */,
+				BF8074B224DA004600CCA528 /* model  controler */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF8074B124DA003C00CCA528 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074B324DA006700CCA528 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8074B224DA004600CCA528 /* model  controler */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074B524DA00BD00CCA528 /* CardController.swift */,
+			);
+			path = "model  controler";
+			sourceTree = "<group>";
+		};
+		BF8074B724DA03EB00CCA528 /* extensiomn and helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074B824DA03FF00CCA528 /* Card Error .swift */,
+				BF8074BA24DA0C7F00CCA528 /* ViewControllerextension.swift */,
+			);
+			path = "extensiomn and helpers";
+			sourceTree = "<group>";
+		};
+		BF8074BC24DA0CC900CCA528 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF8074BD24DA0D2D00CCA528 /* CardViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF80749624D9FFA000CCA528 /* DeckOfOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8074AB24D9FFA100CCA528 /* Build configuration list for PBXNativeTarget "DeckOfOne" */;
+			buildPhases = (
+				BF80749324D9FFA000CCA528 /* Sources */,
+				BF80749424D9FFA000CCA528 /* Frameworks */,
+				BF80749524D9FFA000CCA528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfOne;
+			productName = DeckOfOne;
+			productReference = BF80749724D9FFA000CCA528 /* DeckOfOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF80748F24D9FFA000CCA528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ben Brandau";
+				TargetAttributes = {
+					BF80749624D9FFA000CCA528 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BF80749224D9FFA000CCA528 /* Build configuration list for PBXProject "DeckOfOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF80748E24D9FFA000CCA528;
+			productRefGroup = BF80749824D9FFA000CCA528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF80749624D9FFA000CCA528 /* DeckOfOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF80749524D9FFA000CCA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8074A724D9FFA100CCA528 /* LaunchScreen.storyboard in Resources */,
+				BF8074A424D9FFA100CCA528 /* Assets.xcassets in Resources */,
+				BF8074A224D9FFA000CCA528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF80749324D9FFA000CCA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8074B624DA00BD00CCA528 /* CardController.swift in Sources */,
+				BF80749F24D9FFA000CCA528 /* ViewController.swift in Sources */,
+				BF8074B924DA03FF00CCA528 /* Card Error .swift in Sources */,
+				BF80749B24D9FFA000CCA528 /* AppDelegate.swift in Sources */,
+				BF8074BE24DA0D2D00CCA528 /* CardViewController.swift in Sources */,
+				BF80749D24D9FFA000CCA528 /* SceneDelegate.swift in Sources */,
+				BF8074B424DA006700CCA528 /* Card.swift in Sources */,
+				BF8074BB24DA0C7F00CCA528 /* ViewControllerextension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF8074A024D9FFA000CCA528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8074A124D9FFA000CCA528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8074A524D9FFA100CCA528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8074A624D9FFA100CCA528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8074A924D9FFA100CCA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF8074AA24D9FFA100CCA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8074AC24D9FFA100CCA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73V52F7L32;
+				INFOPLIST_FILE = DeckOfOne/resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brandau.DeckOfOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8074AD24D9FFA100CCA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73V52F7L32;
+				INFOPLIST_FILE = DeckOfOne/resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brandau.DeckOfOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF80749224D9FFA000CCA528 /* Build configuration list for PBXProject "DeckOfOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8074A924D9FFA100CCA528 /* Debug */,
+				BF8074AA24D9FFA100CCA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8074AB24D9FFA100CCA528 /* Build configuration list for PBXNativeTarget "DeckOfOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8074AC24D9FFA100CCA528 /* Debug */,
+				BF8074AD24D9FFA100CCA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF80748F24D9FFA000CCA528 /* Project object */;
+}
